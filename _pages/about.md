@@ -37,11 +37,11 @@ I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one 
 <div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/eqcov_thumbnail.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning**
+[**Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning**](https://icml.cc/virtual/2026/poster/62008)
 
 **Ruihan Liu**, Yu Ji, Jianbo Yu, Shifu Yan, Qingchao Jiang
 
-*International Conference on Machine Learning* (**ICML 2026**, Poster, CCF-A)
+*International Conference on Machine Learning* (**ICML 2026**, Poster, CCF-A) &nbsp;|&nbsp; [Poster page](https://icml.cc/virtual/2026/poster/62008)
 
 - We propose an E(3)-equivariant full-covariance UQ framework that, in the Kelvin–Mandel basis, jointly predicts the tensor mean and a complete 6×6 covariance matrix.
 - A representation-theoretic SPD covariance head with 21 d.o.f. is constructed via the matrix exponential, simultaneously guaranteeing positive definiteness and rotational equivariance.
