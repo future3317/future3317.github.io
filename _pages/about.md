@@ -8,51 +8,89 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi, I am **Ruihan Liu (刘睿涵)**, a first-year Ph.D. student in Computer Science and Technology at **Fudan University**, supervised by Prof. Jianbo Yu. Before that, I received my B.Eng. degree in Automation from **Beijing Institute of Technology** in 2025.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research lies at the intersection of **AI for Science** and **geometric deep learning**. I focus on building physically consistent models for crystalline materials and tensor-valued properties, with particular interest in:
+
+- **E(3)-equivariant neural networks** for tensor property prediction (piezoelectric, dielectric, elasticity).
+- **Uncertainty quantification** on the SPD manifold under exact symmetry constraints.
+- **LLM agents and data infrastructure** for scientific literature mining and curated dataset construction.
+
+I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one paper under review at **npj Computational Materials** as the first author.
+
+📫 **Contact:** `rhliu25 [at] m.fudan.edu.cn`
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.05*: &nbsp;✍️ Manuscript of **Piepaper** (Physics-Guided Agentic Data Infrastructure) under preparation.
+- *2026.02*: &nbsp;🎉🎉 Our paper **"Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning"** has been accepted to **ICML 2026** as a **Poster**.
+- *2026.01*: &nbsp;📨 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been submitted to **npj Computational Materials** (IF 11.9).
+- *2025.09*: &nbsp;🎓 Started Ph.D. study at Fudan University.
+- *2025.06*: &nbsp;🎓 Received B.Eng. in Automation from Beijing Institute of Technology.
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/eqcov_thumbnail.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Ruihan Liu**, Yu Ji, Jianbo Yu, Shifu Yan, Qingchao Jiang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*International Conference on Machine Learning* (**ICML 2026**, Poster, CCF-A)
+
+- We propose an E(3)-equivariant full-covariance UQ framework that, in the Kelvin–Mandel basis, jointly predicts the tensor mean and a complete 6×6 covariance matrix.
+- A representation-theoretic SPD covariance head with 21 d.o.f. is constructed via the matrix exponential, simultaneously guaranteeing positive definiteness and rotational equivariance.
+- Achieves MAE **0.078** on ModelNet40 inertia tensors and MAE **1.55** on Materials Project dielectric tensors, with extensive ablation on Gaussian NLL / Energy Score / Log-Euclidean equivariant scoring objectives.
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">npj CM (under review)</div><img src='images/topotenet_thumbnail.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction**
+
+**Ruihan Liu**, Jianbo Yu, Yu Ji, Hang Ruan, Xiaofeng Yang
+
+Submitted to ***npj Computational Materials*** (Q1 top, IF 11.9)  &nbsp;|&nbsp;  [Code](https://github.com/future3317/TopoTENet)
+
+- Proposes a **topology-conditioned equivariant attention** that injects SLICES periodic-topology labels and space-group priors into E(3)-equivariant message passing via topology bias, MoE-gated key/value, and edge-to-node FiLM modulation.
+- Designs a differentiable point-group projection that suppresses symmetry-forbidden tensor components by about **8 orders of magnitude**.
+- Reaches MAE **0.132** and RMSE **0.302** on 369 test crystals, reducing RMSE by **22.4%** over the SOTA EATGNN baseline; ablating all topology degrades MAE by **49.2%**.
+
+</div>
+</div>
+
+
+# 🛠 Selected Projects
+
+**Piepaper: Physics-Guided Agentic Data Infrastructure** &nbsp;·&nbsp; *manuscript in preparation, primary author* &nbsp;·&nbsp; *2026.02 – 2026.05*
+
+LLM multi-agent orchestration that turns scientific literature end-to-end into datasets with evidence binding and physics validation, unifying extraction, validation, repair, materialization, and strict export under a single quality gate.
+
+- Led the development of a **literature-to-database LLM data pipeline**, covering XML/HTML parsing, evidence-block construction, agentic extraction, physics validation, automatic repair, materialization, and strict export.
+- Designed a **PGCE quality-gating mechanism** that couples material priors, evidence binding, schema validation, and publication gates with multi-agent orchestration, isolating orphan, legacy, low-confidence, and physics-inconsistent records.
+- Curated and unified **671** DOIs, **7,707** evidence blocks, and **2,872** materialized records, distilling **500** SFT-ready strict records and **505** RAG-ready observations.
+
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Undergrad*: Four-semester university-level First-class Scholarship (Top 5%).
+- *2023*: Difan Scholarship (45 recipients university-wide).
+- *Competitions*: National First Prize, China Intelligent Robot Combat and Skills Competition; National Second Prize, China Undergraduate Mathematical Contest in Modeling; MCM Meritorious Winner.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 📖 Education
+- *2025.09 – 2030.07 (expected)*, **Ph.D.**, Computer Science and Technology, **Fudan University**, Shanghai, China.
+- *2021.09 – 2025.06*, **B.Eng.**, Automation, **Beijing Institute of Technology**, Beijing, China.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# 💻 Technical Skills
+- **AI for Science / Deep Learning:** PyTorch, e3nn, GNN, E(3)-equivariant networks, uncertainty quantification, tensor prediction.
+- **LLM / Agent:** multi-agent orchestration, LLM extraction, evidence grounding.
