@@ -82,7 +82,7 @@ LLM multi-agent orchestration that turns scientific literature end-to-end into d
 
 # 🎖 Honors and Awards
 - *Undergrad*: Four-semester university-level First-class Scholarship (Top 5%).
-- *2023*: Difan Scholarship (45 recipients university-wide).
+- *2023*: Diwen Scholarship (迪文奖学金, 45 recipients university-wide).
 - *Competitions*: National First Prize, China Intelligent Robot Combat and Skills Competition; National Second Prize, China Undergraduate Mathematical Contest in Modeling; MCM Meritorious Winner.
 
 
