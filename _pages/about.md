@@ -18,13 +18,13 @@ My research lies at the intersection of **AI for Science** and **geometric deep 
 - **Uncertainty quantification** on the SPD manifold under exact symmetry constraints.
 - **LLM agents and data infrastructure** for scientific literature mining and curated dataset construction.
 
-I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one paper under review at **npj Computational Materials** as the first author.
+I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, one paper under review at **npj Computational Materials** as the first author, and one paper submitted to **AAAI 2027 (CCF-A)** as the primary author.
 
 📫 **Contact:** `rhliu25 [at] m.fudan.edu.cn`
 
 
 # 🔥 News
-- *2026.05*: &nbsp;✍️ Manuscript of **Piepaper** (Physics-Guided Agentic Data Infrastructure) under preparation.
+- *2026.06*: &nbsp;📨 Manuscript **"From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation"** submitted to **AAAI 2027** (CCF-A).
 - *2026.02*: &nbsp;🎉🎉 Our paper **"Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning"** has been accepted to **ICML 2026** as a **Poster**.
 - *2026.01*: &nbsp;📨 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been submitted to **npj Computational Materials** (IF 11.9).
 - *2025.09*: &nbsp;🎓 Started Ph.D. study at Fudan University.
@@ -32,6 +32,24 @@ I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one 
 
 
 # 📝 Publications 
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">AAAI 2027</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation**
+
+**Ruihan Liu**, et al.
+
+*Submitted to AAAI 2027* (CCF-A)
+
+- Reframes literature curation as **open-world candidate proposal → closed-world deterministic publication**, separating LLM candidate generation from publication authority.
+- A deterministic harness binds candidates to immutable evidence, independently verifies property–value–unit tuples, applies DomainPack policies, resolves conflicts, and materializes only **verified-strong** observations.
+- Evaluated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records) across piezoelectric, thermoelectric, and superconducting domains; compiled evidence improves published-observation F1 in all domains (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
+
+</div>
+</div>
+
 
 <div class='paper-box'>
 <div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/eqcov_thumbnail.png' alt="sym" width="100%"></div></div>
@@ -71,13 +89,14 @@ Submitted to ***npj Computational Materials*** (Q1 top, IF 11.9)  &nbsp;|&nbsp; 
 
 # 🛠 Selected Projects
 
-**Piepaper: Physics-Guided Agentic Data Infrastructure** &nbsp;·&nbsp; *manuscript in preparation, primary author* &nbsp;·&nbsp; *2026.02 – 2026.05*
+**EviPGCE / Piepaper: Evidence-Governed Scientific Database Curation** &nbsp;·&nbsp; *submitted to AAAI 2027, primary author* &nbsp;·&nbsp; *2026.02 – 2026.05*
 
-LLM multi-agent orchestration that turns scientific literature end-to-end into datasets with evidence binding and physics validation, unifying extraction, validation, repair, materialization, and strict export under a single quality gate.
+Reframes scientific extraction as open-world candidate proposal followed by closed-world deterministic publication. The LLM proposes structured candidates from evidence packets; a deterministic harness binds, verifies, and gates records before materialization.
 
-- Led the development of a **literature-to-database LLM data pipeline**, covering XML/HTML parsing, evidence-block construction, agentic extraction, physics validation, automatic repair, materialization, and strict export.
-- Designed a **PGCE quality-gating mechanism** that couples material priors, evidence binding, schema validation, and publication gates with multi-agent orchestration, isolating orphan, legacy, low-confidence, and physics-inconsistent records.
-- Curated and unified **671** DOIs, **7,707** evidence blocks, and **2,872** materialized records, distilling **500** SFT-ready strict records and **505** RAG-ready observations.
+- Designed a **publication-authority layer** where the harness enforces Schema / Domain / Bound / Verified / Valid / ConflictFree checks and materializes only **verified-strong** observations.
+- Implemented **evidence compilation and independent content verification**: parses immutable evidence blocks into bounded packets and verifies property–value–unit, material, and condition co-localization.
+- Built a **swappable DomainPack policy surface** covering piezoelectric, thermoelectric, and superconducting domains.
+- Validated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records): compiled evidence improves published-observation F1 (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
 
 
 # 🎖 Honors and Awards
