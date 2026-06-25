@@ -34,7 +34,7 @@ I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, one pape
 # 📝 Publications 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">AAAI 2027</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-image'><div><div class="badge">In Preparation</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation**
