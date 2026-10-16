@@ -18,12 +18,13 @@ My research lies at the intersection of **AI for Science** and **geometric deep 
 - **Uncertainty quantification** on the SPD manifold under exact symmetry constraints.
 - **LLM agents and data infrastructure** for scientific literature mining and curated dataset construction.
 
-I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, one paper under review at **npj Computational Materials** as the first author, and one paper to be submitted to **AAAI 2027 (CCF-A)** as the primary author.
+I have one paper published in **npj Computational Materials (IF 11.9)** and one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one paper to be submitted to **AAAI 2027 (CCF-A)** as the primary author.
 
 📫 **Contact:** `rhliu25 [at] m.fudan.edu.cn`
 
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉🎉 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been **accepted** by **npj Computational Materials** (IF 11.9) and [published online](https://www.nature.com/articles/s41524-026-02331-3).
 - *2026.06*: &nbsp;✍️ Manuscript **"From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation"** to be submitted to **AAAI 2027** (CCF-A).
 - *2026.02*: &nbsp;🎉🎉 Our paper **"Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning"** has been accepted to **ICML 2026** as a **Poster**.
 - *2026.01*: &nbsp;📨 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been submitted to **npj Computational Materials** (IF 11.9).
@@ -34,18 +35,18 @@ I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, one pape
 # 📝 Publications 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">In Preparation</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-image'><div><div class="badge">npj Comput. Mater. 2026</div><img src='images/topotenet_thumbnail.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation**
+[**Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction**](https://www.nature.com/articles/s41524-026-02331-3)
 
-**Ruihan Liu**, et al.
+**Ruihan Liu**, Jianbo Yu, Yu Ji, Hang Ruan, Xiaofeng Yang
 
-*To be submitted to AAAI 2027* (CCF-A)
+***npj Computational Materials*** (2026), published online &nbsp;|&nbsp; [Paper](https://www.nature.com/articles/s41524-026-02331-3) &nbsp;|&nbsp; [Code](https://github.com/future3317/TopoTENet)
 
-- Reframes literature curation as **open-world candidate proposal → closed-world deterministic publication**, separating LLM candidate generation from publication authority.
-- A deterministic harness binds candidates to immutable evidence, independently verifies property–value–unit tuples, applies DomainPack policies, resolves conflicts, and materializes only **verified-strong** observations.
-- Evaluated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records) across piezoelectric, thermoelectric, and superconducting domains; compiled evidence improves published-observation F1 in all domains (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
+- Proposes a **topology-conditioned equivariant attention** that injects SLICES periodic-topology labels and space-group priors into E(3)-equivariant message passing via topology bias, MoE-gated key/value, and edge-to-node FiLM modulation.
+- Designs a differentiable point-group projection that suppresses symmetry-forbidden tensor components by about **8 orders of magnitude**.
+- Reaches MAE **0.132** and RMSE **0.302** on 369 test crystals, reducing RMSE by **22.4%** over the SOTA EATGNN baseline; ablating all topology degrades MAE by **49.2%**.
 
 </div>
 </div>
@@ -70,18 +71,18 @@ I have one paper accepted at **ICML 2026 (CCF-A)** as the first author, one pape
 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">npj CM (under review)</div><img src='images/topotenet_thumbnail.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-image'><div><div class="badge">In Preparation</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction**
+**From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation**
 
-**Ruihan Liu**, Jianbo Yu, Yu Ji, Hang Ruan, Xiaofeng Yang
+**Ruihan Liu**, et al.
 
-Submitted to ***npj Computational Materials*** (Q1 top, IF 11.9)  &nbsp;|&nbsp;  [Code](https://github.com/future3317/TopoTENet)
+*To be submitted to AAAI 2027* (CCF-A)
 
-- Proposes a **topology-conditioned equivariant attention** that injects SLICES periodic-topology labels and space-group priors into E(3)-equivariant message passing via topology bias, MoE-gated key/value, and edge-to-node FiLM modulation.
-- Designs a differentiable point-group projection that suppresses symmetry-forbidden tensor components by about **8 orders of magnitude**.
-- Reaches MAE **0.132** and RMSE **0.302** on 369 test crystals, reducing RMSE by **22.4%** over the SOTA EATGNN baseline; ablating all topology degrades MAE by **49.2%**.
+- Reframes literature curation as **open-world candidate proposal → closed-world deterministic publication**, separating LLM candidate generation from publication authority.
+- A deterministic harness binds candidates to immutable evidence, independently verifies property–value–unit tuples, applies DomainPack policies, resolves conflicts, and materializes only **verified-strong** observations.
+- Evaluated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records) across piezoelectric, thermoelectric, and superconducting domains; compiled evidence improves published-observation F1 in all domains (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
 
 </div>
 </div>
