@@ -60,7 +60,7 @@ I have one paper published in **npj Computational Materials (IF 11.9)** and one 
 
 **Ruihan Liu**, Yu Ji, Jianbo Yu, Shifu Yan, Qingchao Jiang
 
-*International Conference on Machine Learning* (**ICML 2026**, Poster, CCF-A) &nbsp;|&nbsp; [Paper](files/eqcov_icml2026.pdf) &nbsp;|&nbsp; [Poster page](https://icml.cc/virtual/2026/poster/62008)
+*International Conference on Machine Learning* (**ICML 2026**, Poster, CCF-A) &nbsp;|&nbsp; [Paper](https://proceedings.mlr.press/v306/liu26bk.html) &nbsp;|&nbsp; [Poster page](https://icml.cc/virtual/2026/poster/62008)
 
 - We propose an E(3)-equivariant full-covariance UQ framework that, in the Kelvin–Mandel basis, jointly predicts the tensor mean and a complete 6×6 covariance matrix.
 - A representation-theoretic SPD covariance head with 21 d.o.f. is constructed via the matrix exponential, simultaneously guaranteeing positive definiteness and rotational equivariance.
