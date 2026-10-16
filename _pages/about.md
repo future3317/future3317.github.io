@@ -18,14 +18,13 @@ My research lies at the intersection of **AI for Science** and **geometric deep 
 - **Uncertainty quantification** on the SPD manifold under exact symmetry constraints.
 - **LLM agents and data infrastructure** for scientific literature mining and curated dataset construction.
 
-I have one paper published in **npj Computational Materials (IF 11.9)** and one paper accepted at **ICML 2026 (CCF-A)** as the first author, and one paper to be submitted to **AAAI 2027 (CCF-A)** as the primary author.
+I have one paper published in **npj Computational Materials (IF 11.9)** and one paper accepted at **ICML 2026 (CCF-A)** as the first author.
 
 📫 **Contact:** `rhliu25 [at] m.fudan.edu.cn`
 
 
 # 🔥 News
 - *2026.09*: &nbsp;🎉🎉 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been **accepted** by **npj Computational Materials** (IF 11.9) and [published online](https://www.nature.com/articles/s41524-026-02331-3).
-- *2026.06*: &nbsp;✍️ Manuscript **"From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation"** to be submitted to **AAAI 2027** (CCF-A).
 - *2026.02*: &nbsp;🎉🎉 Our paper **"Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning"** has been accepted to **ICML 2026** as a **Poster**.
 - *2026.01*: &nbsp;📨 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been submitted to **npj Computational Materials** (IF 11.9).
 - *2025.09*: &nbsp;🎓 Started Ph.D. study at Fudan University.
@@ -68,36 +67,6 @@ I have one paper published in **npj Computational Materials (IF 11.9)** and one 
 
 </div>
 </div>
-
-
-<div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">In Preparation</div><img src='images/evipgce_architecture.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**From Extraction to Publication: EviPGCE, an Evidence-Governed Harness for Scientific Database Curation**
-
-**Ruihan Liu**, et al.
-
-*To be submitted to AAAI 2027* (CCF-A)
-
-- Reframes literature curation as **open-world candidate proposal → closed-world deterministic publication**, separating LLM candidate generation from publication authority.
-- A deterministic harness binds candidates to immutable evidence, independently verifies property–value–unit tuples, applies DomainPack policies, resolves conflicts, and materializes only **verified-strong** observations.
-- Evaluated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records) across piezoelectric, thermoelectric, and superconducting domains; compiled evidence improves published-observation F1 in all domains (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
-
-</div>
-</div>
-
-
-# 🛠 Selected Projects
-
-**EviPGCE / Piepaper: Evidence-Governed Scientific Database Curation** &nbsp;·&nbsp; *to be submitted to AAAI 2027, primary author* &nbsp;·&nbsp; *2026.02 – 2026.05*
-
-Reframes scientific extraction as open-world candidate proposal followed by closed-world deterministic publication. The LLM proposes structured candidates from evidence packets; a deterministic harness binds, verifies, and gates records before materialization.
-
-- Designed a **publication-authority layer** where the harness enforces Schema / Domain / Bound / Verified / Valid / ConflictFree checks and materializes only **verified-strong** observations.
-- Implemented **evidence compilation and independent content verification**: parses immutable evidence blocks into bounded packets and verifies property–value–unit, material, and condition co-localization.
-- Built a **swappable DomainPack policy surface** covering piezoelectric, thermoelectric, and superconducting domains.
-- Validated on three **Gold-50** benchmarks (**150 DOIs**, **1,956** records): compiled evidence improves published-observation F1 (piezo **0.675→0.760**, thermo **0.285→0.363**, SC **0.494→0.519**).
 
 
 # 🎖 Honors and Awards
