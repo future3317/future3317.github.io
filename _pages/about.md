@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am **Ruihan Liu (刘睿涵)**, a first-year Ph.D. student in Computer Science and Technology at **Fudan University**, supervised by Prof. Jianbo Yu. Before that, I received my B.Eng. degree in Automation from **Beijing Institute of Technology** in 2025.
+Hi, I am **Ruihan Liu (刘睿涵)**, a second-year Ph.D. student in Computer Science and Technology at **Fudan University**, supervised by Prof. Jianbo Yu. Before that, I received my B.Eng. degree in Automation from **Beijing Institute of Technology** in 2025.
 
 My research lies at the intersection of **AI for Science** and **geometric deep learning**. I focus on building physically consistent models for crystalline materials and tensor-valued properties, with particular interest in:
 
