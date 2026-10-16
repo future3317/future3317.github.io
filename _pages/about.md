@@ -18,15 +18,14 @@ My research lies at the intersection of **AI for Science** and **geometric deep 
 - **Uncertainty quantification** on the SPD manifold under exact symmetry constraints.
 - **LLM agents and data infrastructure** for scientific literature mining and curated dataset construction.
 
-I have one paper published in **npj Computational Materials (IF 11.9)** and one paper accepted at **ICML 2026 (CCF-A)** as the first author.
+I have one paper published in **npj Computational Materials (IF 13.1)** and one paper accepted at **ICML 2026 (CCF-A)** as the first author.
 
 📫 **Contact:** `rhliu25 [at] m.fudan.edu.cn`
 
 
 # 🔥 News
-- *2026.09*: &nbsp;🎉🎉 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been **accepted** by **npj Computational Materials** (IF 11.9) and [published online](https://www.nature.com/articles/s41524-026-02331-3).
+- *2026.09*: &nbsp;🎉🎉 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been **accepted** by **npj Computational Materials** (IF 13.1) and [published online](https://www.nature.com/articles/s41524-026-02331-3).
 - *2026.02*: &nbsp;🎉🎉 Our paper **"Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning"** has been accepted to **ICML 2026** as a **Poster**.
-- *2026.01*: &nbsp;📨 Our paper **"Topology-aware E(3)-equivariant learning for physically consistent piezoelectric tensor prediction"** has been submitted to **npj Computational Materials** (IF 11.9).
 - *2025.09*: &nbsp;🎓 Started Ph.D. study at Fudan University.
 - *2025.06*: &nbsp;🎓 Received B.Eng. in Automation from Beijing Institute of Technology.
 
